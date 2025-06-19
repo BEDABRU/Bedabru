@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: #fffaf0;
+  margin: 0;
+  padding: 0;
+  color: #4b3621;
+}
+header, footer {
+  background-color: #deb887;
+  text-align: center;
+  padding: 1em;
+}
+nav {
+  background-color: #d2b48c;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+section {
+  padding: 2em;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+.product {
+  border: 1px solid #d2b48c;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  background-color: white;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+button {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  background-color: #4b3621;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
